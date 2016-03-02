@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "description": "Command line tool for turning html into PDF",
   "scripts": {
-    "start": "xvfb-run -a -s \"-screen 0 640x480x16\" babel-node index.js \"$@\""
+    "start": "./run.sh"
   },
-  "author": "",
   "license": "ISC",
   "private": true,
   "dependencies": {
+    "marked": "0.3.5",
     "wkhtmltopdf": "0.1.5"
   },
   "devDependencies": {

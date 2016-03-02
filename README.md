@@ -6,8 +6,8 @@
   2. install wkhtmltopdf and xvfb (sudo apt-get install wkhtmltopdf xvfb)
   3. fork/clone this repo
   4. npm i
-  5. edit page.html
-  6. npm start
+  5. edit page.html or page.md
+  6. ./run.sh or ./run.sh marked
   7. open out.pdf
 
 ### Installation / Usage - Other OS's:
